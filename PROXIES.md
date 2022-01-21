@@ -28,3 +28,7 @@ A proxy server is a server application that acts as an intermediary between a cl
   - Path Based or other application specific data
 
 - You can have load balancers between client and server, server and db, etc.
+
+## Home
+
+- [Home](./README.md)
