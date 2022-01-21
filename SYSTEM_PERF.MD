@@ -4,8 +4,6 @@
 2. [Throughput](#Throughput)
 3. [Latency](#Latency)
 
-- [Home](./README.md)
-
 <div>
   <img src="images/BTL.png" style="width:60%; margin: 2rem 0 1rem 5rem" />
 </div>
@@ -46,3 +44,7 @@ Some ways to improve latency:
 - Reduce file sizes/optimize images and cut down on resources that block rendering
 
 - Lazy Loading: you can also set up a website so it only loads the assets that are needed in the moment.
+
+## Home
+
+- [Home](./README.md)
