@@ -1,0 +1,26 @@
+Latency
+
+Throughput
+1. How much work a machine can perform in a given period of time
+2. How much data can be transferred between two points of a system in a given
+period of time
+3. Measured in Gb/s, Mb/s, kb/s; or how many requests can a server handle/time
+
+
+Load Balancer
+1. Server Selection Strategy
+- Random redirection
+- Round Robin approach (weighted)
+- Performance Based Load Balancing
+- Path Based
+
+Proxy
+- Forward proxy (generally referred as proxy)
+  - A forward proxy is a server that acts on behalf of the client (or set of clients)
+- Reverse proxy
+  - Reverse proxies act on behalf of a server in a client server interaction (e.g. Nginx)
+  - It can filter out requests that you want to ignore
+  - Logging
+  - Metrics
+  - Cache stuff
+  - Load Balancing
