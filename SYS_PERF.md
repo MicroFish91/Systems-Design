@@ -3,6 +3,7 @@
 1. [Bandwidth](#Bandwidth)
 2. [Throughput](#Throughput)
 3. [Latency](#Latency)
+4. [Availability](#Availability)
 
 <div>
   <img src="images/BTL.png" style="width:60%; margin: 2rem 0 1rem 5rem" />
