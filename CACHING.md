@@ -57,7 +57,7 @@ There are two main ways people use a distributed cache:
 
 - Read-through/Write-through (RT/WT): This is where the application treats cache as the main data store and reads data from it and writes data to it. The cache is responsible for reading and writing this data to the database, thereby relieving the application of this responsibility.
 
-## Read-through
+### Read-through
 
 In read-through caching, the application first queries the cache to see if the information it needs is inside. If not, it retrieves the information from the database and uses it to update the cache. The cache provider or cache library is responsible for the detailed logic of querying and updating the cache.
 
@@ -95,6 +95,12 @@ In general, write-through caching is easier to implement than write-behind cachi
 First, in order to successfully implement write-behind caching, all parts of the system must first make changes to the cache before changing the database, as well as check the cache before accessing the database. Otherwise, the system could miss the “dirty” records stored in the cache that have not yet been sent to the database.
 
 Second, to improve performance, write-behind caching uses a technique known as conflation, in which changes to the cache are consolidated in order to limit the number of transactions needed to update the database. For example, if a value is changed from 1 to 2 in the cache, and then later from 2 to 3, the database will only be updated to change the value from 1 to 3.
+
+### Read-Through/Write-Through
+
+<div>
+  <img src="images/RT-WT.jpeg" style="width:60%; margin: 2rem 0 1rem 5rem" />
+</div>
 
 ### Read-Through and Write-behind Cache
 
