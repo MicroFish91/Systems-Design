@@ -6,3 +6,4 @@
 4. [Proxies](./PROXIES.md)
 5. [Load Balancing](./PROXIES.md#load-balancer)
 6. [Caching](./CACHING.md)
+7. [Consistent Hashing](./HASHING.md)
