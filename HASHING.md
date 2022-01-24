@@ -17,3 +17,9 @@ A good hash function will ensure that the overall distribution is random but eve
 The issue that is presented comes when we add or remove servers. We end up with the possibility that a previous user will now not go to the same server as before, so we lose a lot of overall system time that was being saved via local server cache hits. Basically Rehashing is expensive. The solution is consistent hashing.
 
 Consistent Hashing is a distributed hashing scheme that operates independently of the number of servers or objects in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting the overall system.
+
+- https://www.youtube.com/watch?v=zaRkONvyGr8&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=4&ab_channel=GauravSen
+
+## Home
+
+- [Home](./README.md)
