@@ -8,6 +8,7 @@
 6. [Consistent Hashing](./HASHING.md)
 7. [Monolith vs. Microservice Architecture](./MON_VS_MIC.md)
 8. [Caching](./CACHING.md)
+9. [Database Sharding](./SHARDING_PARTITION.md)
 
 ## Message Queue
 
